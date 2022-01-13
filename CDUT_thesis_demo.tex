@@ -1,0 +1,67 @@
+% !TeX document-id = {86bdefc3-4e8a-4ff5-88e9-d962e599dffc}
+% !TeX encoding = UTF8
+\documentclass{cdut_thesis}
+
+
+
+\TitleCDUT{成都理工大学本科毕业论文非官方\LaTeX 模板}{Unofficial graduation thesis of Chengdu University of Technology \LaTeX template}
+\KeywordCDUT{\LaTeX ；排版系统；毕业论文}{\LaTeX ;Typesetting system;Graduation thesis}
+\AuthorCDUT{吴文豪}
+\StudentnumberCDUT{201xxxxxxxxx}
+\AdvisorCDUT{张三}{副教授}
+\MajorCDUT{信息与计算科学}
+% 多少届的毕业生
+\GradeCDUT{2020}
+
+\begin{document}
+
+% ------------------------------------------------
+%                     摘要部分
+% ------------------------------------------------
+
+% 摘要以及目录的页眉页脚
+\fronthead
+\makezhcover
+
+\begin{chineseabstract}
+这是成都理工大学本科生毕业论文\textbf{非官方} \LaTeX 模板。
+
+本模板的设计严格遵守成都理工大学  \href{http://202.115.140.232/shownews.aspx?newsno=MX87I+hJrZ85EKiYIeQKWw....}{{\color{red} 《学生学士学位论文（设计）编写格式》}}。本模板仅对编写格式说明书中要求的内容进行设置，并未对一些其他的复杂元素，例如代码、定理等编写格式说明书中未提到的排版样式进行设置。若有这方面需求，可以自行定义，或者联系模板作者加入此部分内容，欢迎加入本校交流群：775867170
+
+\textbf{注意：}本模板在编写过程中尽可能满足学校要求，由于原始规范主要针对Word。和\LaTeX 之间不可避免的差异加之编写者的水平有限，所以难免和学校提供的基于Word的样张存在细微差异，请谨慎使用！
+\end{chineseabstract}
+
+
+
+\begin{englishabstract}
+This is an unofficial \ LaTeX template for graduate thesis of Chengdu University of Technology.
+
+The design of this template abides by Chengdu University of Technology \href{http: //202.115.140.232/shownews.aspx? newsno = MX87I + hJrZ85EKiYIeQKWw ....}{{\color{red}Writing Format for Students' Bachelor Thesis (Design) }} strictly. This template only sets the content required in the writing format description. On the contrary, it sets the layout styles that are not mentioned in the writing format description for some other complex elements, such as code and theorem. If there is a need in this regard, you can define it yourself, or contact the template author to add this part.
+
+\textbf{Note:} This template completely meets the school requirements during the writing process, because the original specification is mainly for Word. The difference between \ LaTeX and the level of the author is limited, so it is inevitable that there is a slight difference from the Word-based sample provided by the school, please use it with caution!
+\end{englishabstract}
+
+\newpage
+\tableofcontents
+
+% ------------------------------------------------
+%                     论文主体
+% ------------------------------------------------
+\newpage
+% 正文的页眉页脚
+\texthead
+
+\include{body/section_1}
+\include{body/section_2}
+\include{body/section_3}
+\include{body/section_4}
+\include{body/section_5}
+\include{body/conclusion}
+\include{body/thanks}
+\include{body/references}
+\include{body/appendix}
+
+
+
+
+\end{document}
